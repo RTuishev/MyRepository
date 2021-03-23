@@ -3,8 +3,10 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Dany");
-        System.out.println("Dany");
+        String Link = "Шаурмяу";
+        System.out.println("До: " + Link);
+        String a = Link.substring(0, 5);
+        System.out.println("После: " + a + "а");
+//        System.out.println("Dany");
     }
 }
